@@ -1,1 +1,5 @@
 /* This file is for your main application css. */
+
+.logo {
+  font-size: 3em; font-family: Roboto; font-weight: 800; color: #377;
+}

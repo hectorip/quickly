@@ -1,0 +1,38 @@
+<h2>Show quote</h2>
+
+<ul>
+
+  <li>
+    <strong>Content:</strong>
+    <%= @quote.content %>
+  </li>
+
+  <li>
+    <strong>Book:</strong>
+    <%= @quote.book %>
+  </li>
+
+  <li>
+    <strong>User:</strong>
+    <%= @quote.user %>
+  </li>
+
+  <li>
+    <strong>Rating:</strong>
+    <%= @quote.rating %>
+  </li>
+
+  <li>
+    <strong>Voters:</strong>
+    <%= @quote.voters %>
+  </li>
+
+  <li>
+    <strong>Collection:</strong>
+    <%= @quote.collection %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: quote_path(@conn, :edit, @quote) %>
+<%= link "Back", to: quote_path(@conn, :index) %>

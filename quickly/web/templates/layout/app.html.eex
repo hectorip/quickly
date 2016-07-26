@@ -17,10 +17,12 @@
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-            <li><a href="/about">Acerca de Quickly</a></li>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/about">Acerca de</a></li>
+            <li><a href="/me">Perfil</a></li>
           </ul>
         </nav>
-        <span class="logo_" style="font-size: 3em; font-family: Roboto"> Quickly </span>
+        <span class="logo"> Quickly </span>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
