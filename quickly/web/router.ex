@@ -18,6 +18,7 @@ defmodule Quickly.Router do
 
     get "/", PageController, :index
     get "/about", PageController, :about
+    resources "/quotes", QuoteController
   end
 
   # Other scopes may use custom stacks.

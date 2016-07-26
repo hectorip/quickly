@@ -1,11 +1,11 @@
 <div class="row">
-  <div class="col-lg-6">
+  <div class="col-lg-6 col-md-12">
     <h4>¿Qué es Quickly?</h4>
     <p> Quickly te permite guardar las citas de los libros que estás leyendo para
     que las revisites cuando necesites o para que las compartas con el mundo. </p>
   </div>
 
-  <div class="col-lg-6">
+  <div class="col-lg-6 col-md-12">
     <h4>Help</h4>
     <ul>
       <li>
