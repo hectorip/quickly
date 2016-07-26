@@ -3,3 +3,9 @@
 .logo {
   font-size: 3em; font-family: Roboto; font-weight: 800; color: #377;
 }
+.about-row{
+  font-size: 1.2em;
+}
+.about-row h3 {
+  color: #166;
+}
