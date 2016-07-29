@@ -5,7 +5,14 @@
 </div>
 
 <div class="" id="vue-app">
-  {{mess}}
+  <div class="row main-sections">
+    <div class="col-md-6">
+      Main Section
+    </div>
+    <div class="col-md-6">
+      secondary section
+    </div>
+  </div>
 </div>
 
 <script type="text/javascript">
