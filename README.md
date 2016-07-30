@@ -5,3 +5,10 @@
 Store your quotes and share them, possibly making TL;DR of a book.
 
 This is intended to promote reading among the masses.
+
+### Created with phoenix
+
+As I'm making this to learn better Phoenix, I'm using as learning resources:
+
+*  Programming Phoenix
+*  [Phoenix Authentication](http://nithinbekal.com/posts/phoenix-authentication/)
