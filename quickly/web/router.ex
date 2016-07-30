@@ -19,6 +19,7 @@ defmodule Quickly.Router do
     get "/", PageController, :index
     get "/about", PageController, :about
     get "/contact", PageController, :contact
+    resources "/users", UserController, only: [:new]
     resources "/quotes", QuoteController
   end
 
