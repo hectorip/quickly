@@ -8,6 +8,6 @@ defmodule Quickly.Registration do
   end
 
   defp hashed_password(password) do
-    Comeonin.Bcrypt.haspwsalt(password)
+    Comeonin.Bcrypt.hashpwsalt(password)
   end
 end
