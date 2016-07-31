@@ -13,6 +13,7 @@ defmodule Quickly.UserController do
     case Quickly.Registration.create(changeset, Quickly.Repo) do
       {:ok, changeset} ->
         conn
+        |> put_session(:current_user, changeset.id)
         |> put_flash(:info, "Tu cuenta ha sido creada")
         |> redirect(to: "/")
       {:error, changeset} ->
