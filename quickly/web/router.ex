@@ -21,6 +21,10 @@ defmodule Quickly.Router do
     get "/contact", PageController, :contact
     resources "/users", UserController, only: [:new, :create]
     resources "/quotes", QuoteController
+
+    get "/login", SessionController, :new
+    post "/login", SessionController, :create
+    delete "/logout", SessionController, :delete # I don't understand why I'm using delete
   end
 
   # Other scopes may use custom stacks.
