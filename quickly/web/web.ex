@@ -52,6 +52,7 @@ defmodule Quickly.Web do
       import Quickly.Router.Helpers
       import Quickly.ErrorHelpers
       import Quickly.Gettext
+      import Quickly.Session, only: [curren_user: 1, logged_in?: 1]
     end
   end
 
